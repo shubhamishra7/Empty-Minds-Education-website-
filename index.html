@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmptyMinds edu webpage</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="navbar">
+            <!-- Logo and Navbar Links -->
+            <img src="logo empty mind 2.png" alt="EmptyMinds Logo" class="logo">
+            <div class="nav-items">
+                <button class="learn-btn">Learn</button>
+                <input type="text" placeholder="What do you want to learn?" class="search-bar">
+                <button class="search-btn">Search</button>
+                <a href="signup.html" class="link">Sign up</a>
+                <a href="signin.html" class="link">Sign In</a>
+                <button class="register-btn" onclick="register()">Register Here</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Bring your <span>goals</span> into <span>focus</span></h1>
+                <p>We offers online courses and programs that prepare you for every career moment</p>
+                <div class="course-search">
+                    <input type="text" placeholder="Search our 4000+ courses">
+                    <button class="search-btn">Search</button>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- Partner Logos Section -->
+        <section class="partners">
+            <!-- Partner Logos -->
+            <img src="mit_logo.png" alt="MIT">
+            <img src="harvad.jpg" alt="Harvard">
+            <img src="berkeley.jpg" alt="Berkeley">
+            <img src="boston.jpg" alt="Boston University">
+            <img src="gogole.jpg" alt="Google">
+            <img src="cambridge.jpg" alt="Cambridge">
+        </section>
+
+        <!-- Feature Section -->
+        <section class="features">
+            <h2>You set the goal. We'll mark the path.</h2>
+            <div class="feature-box">
+                <h3>Programs and Degrees</h3>
+                <p>Pursue your goals with courses from top universities and industries, designed to fit your schedule.</p>
+                <button class="learn-more-btn">Learn More</button>
+            </div>
+            <!-- Additional feature boxes can be added here if needed -->
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials">
+            <h2>What learners are saying ?</h2>
+            <div class="testimonial">
+                <p> <h3> "This courses have helped me stay ahead in my field." </h3> </p>
+                <span>-Smita Reddy,Lucknow</span>
+            </div>
+            <div class="testimonial">
+                <p> <h3> "The flexibility of Empty Minds made it possible to learn while working."</h3> </p>
+                <span>-Priyanka Tripathy,Odisha</span>
+            </div>
+            <div class="testimonial">
+                <p> <h3>"I achieved my goals thanks to EmptyMinds."</h3> </p>
+                <span>-Aman gupta,Andhrapradesh</span>
+            </div>
+            <div class="testimonial">
+                <p> <h3>"The hands on projects and real world examples helped me to apply ,what I learn."</h3> </p>
+                <span>-Sasmita panda,Hydrabad</span>
+            </div>
+            <div class="testimonial">
+                <p> <h3>"Thanks to this course , I landed my dream job and feel fully prepared for succeed."</h3> </p>
+                <span>-Roshan Biswal,Uttarpradesh</span>
+            </div>
+        </section>
+
+
+
+     <div>
+       <!-- Popular Topics Section -->
+       <section class="popular-topics">
+        <h2>Popular topics</h2>
+        
+        <!-- Topics Container -->
+        <div class="topics-container">
+            <!-- Topic Item 1 -->
+            <div class="topic-item">
+                <div class="icon">&#128161;</div> 
+                <p>Artificial intelligence</p>
+            </div>
+            
+            <!-- Topic Item 2 -->
+            <div class="topic-item">
+                <div class="icon">&#128214;</div> 
+                <p>Leadership</p>
+            </div>
+            
+            <!-- Topic Item 3 -->
+            <div class="topic-item">
+                <div class="icon">&#128101;</div>
+                <p>Supply chain</p>
+            </div>
+            
+            <!-- Topic Item 4 -->
+            <div class="topic-item">
+                <div class="icon">&#128187;</div>
+                <p>Computer programming</p>
+            </div>
+            
+            <!-- Topic Item 5 -->
+            <div class="topic-item">
+                <div class="icon">&#128200;</div> 
+                <p>Probability</p>
+            </div>
+            
+            <!-- Topic Item 6 -->
+            <div class="topic-item">
+                <div class="icon">&#128187;</div>
+                <p>Python</p>
+            </div>
+            
+            <!-- Topic Item 7 -->
+            <div class="topic-item">
+                <div class="icon">&#128295;</div>
+                <p>Machine learning</p>
+            </div>
+            
+            <!-- Topic Item 8 -->
+            <div class="topic-item">
+                <div class="icon">&#128187;</div> 
+                <p>Computer science</p>
+            </div>
+            
+            <!-- Topic Item 9 -->
+            <div class="topic-item">
+                <div class="icon">&#9997;</div> 
+                <p>Writing</p>
+            </div>
+            
+            <!-- Topic Item 10 -->
+            <div class="topic-item">
+                <div class="icon">&#128202;</div> 
+                <p>Statistics</p>
+            </div>
+             <!-- Topic Item 11 -->
+             <div class="topic-item">
+                <div class="icon">&#128107;</div> 
+                <p>Group work</p>
+            </div>
+        </div>
+     </div> 
+     <section>   
+        
+         <center> <h1>Treanding Courses</h1> </center>
+        <div class="card-container">
+            <!-- Card 1 -->
+            <div class="course-card">
+                <img src="wed dev img.jpg" alt="Course Image" class="course-image">
+                <div class="course-info">
+                    <h3 class="course-title">FullStack Web Development</h3>
+                    <p class="instructor">Er.Shubharanjan Mishra</p>
+                    <div class="rating">4.2 ★ (331,802)</div>
+                    <div class="price">
+                        <span class="current-price">₹1,299</span>
+                        <span class="original-price">₹2,299</span>
+                    </div>
+                </div>
+                <div class="course-details">
+                    <p><strong>Best Seller</strong> | Updated December 2024</p>
+                    <ul>
+                        <li>Master Web Development by building 100 projects in 100 days.</li>
+                        <li>Build interactive user interfaces with HTML, CSS, and JavaScript.</li>
+                        <li>Develop server-side logic and APIs using Node.js or Python.</li>
+                    </ul>
+                    <button>Enroll Now</button>
+                </div>
+            </div>
+            
+            <!-- Card 2 -->
+            <div class="course-card">
+                <img src="cloud computing.jpg" alt="Course Image" class="course-image">
+                <div class="course-info">
+                    <h3 class="course-title">Cloud Computing</h3>
+                    <p class="instructor">Dr.Satyam Rout</p>
+                    <div class="rating">4.3 ★ (224,895)</div>
+                    <div class="price">
+                        <span class="current-price">₹1,999</span>
+                        <span class="original-price">₹2,499</span>
+                    </div>
+                </div>
+                <div class="course-details">
+                    <p><strong>Best Seller</strong> | Updated December 2024</p>
+                    <ul>
+                        <li>Understand IaaS, PaaS, and SaaS, and how they differ in cloud delivery.</li>
+                        <li>Explore public, private, and hybrid cloud models, and their use cases.</li>
+                        <li>Learn best practices for securing cloud environments and managing resources.</li>
+                    </ul>
+                    <button>Enroll Now</button>
+                </div>
+            </div>
+        
+            <!-- Card 3 -->
+            <div class="course-card">
+                <img src="block chain.jpg" alt="Course Image" class="course-image">
+                <div class="course-info">
+                    <h3 class="course-title">Block-Chain Development</h3>
+                    <p class="instructor">Prof.Satyabrata Rout</p>
+                    <div class="rating">4.7 ★ (238,752)</div>
+                    <div class="price">
+                        <span class="current-price">₹2,599</span>
+                        <span class="original-price">₹3,499</span>
+                    </div>
+                </div>
+                <div class="course-details">
+                    <p><strong>Best Seller</strong> | Updated December 2024</p>
+                    <ul>
+                        <li>Understand the fundamentals of blockchain technology, including decentralized networks and cryptographic hashing.</li>
+                        <li>Learn how to develop smart contracts and decentralized applications (DApps) using platforms like Ethereum.</li>
+                        <li>Explore blockchain security practices, including consensus algorithms and protecting against attacks like 51% attacks.</li>
+                    </ul>
+                    <button>Enroll Now</button>
+                </div>
+            </div>
+            
+                 <!-- Card 4 -->
+            <div class="course-card">
+                <img src="cyber security.jpg" alt="Course Image" class="course-image">
+                <div class="course-info">
+                    <h3 class="course-title">Cyber-Security</h3>
+                    <p class="instructor">Dr.Om Prasad Jena</p>
+                    <div class="rating">4.1 ★ (324,933)</div>
+                    <div class="price">
+                        <span class="current-price">₹3,999</span>
+                        <span class="original-price">₹4,499</span>
+                    </div>
+                </div>
+                <div class="course-details">
+                    <p><strong>Best Seller</strong> | Updated December 2024</p>
+                    <ul>
+                        <li>Learn how to protect networks from unauthorized access and attacks using firewalls, VPNs, and intrusion detection systems.</li>
+                        <li>Understand various cyber threats (malware, phishing, ransomware) and techniques for preventing and responding to them.</li>
+                        <li>Explore encryption methods, secure communication protocols, and best practices for safeguarding sensitive data and maintaining privacy.</li>
+                    </ul>
+                    <button>Enroll Now</button>
+                </div>
+            </div>
+        <!-- Card 5 -->
+        <div class="course-card">
+        <img src="ai ml.png" alt="Course Image" class="course-image">
+        <div class="course-info">
+            <h3 class="course-title">AI/ML</h3>
+            <p class="instructor">Dr.Chinmaya Giri</p>
+            <div class="rating">4.3 ★ (583,928)</div>
+            <div class="price">
+                <span class="current-price">₹3,499</span>
+                <span class="original-price">₹4,499</span>
+            </div>
+        </div>
+        <div class="course-details">
+            <p><strong>Best Seller</strong> | Updated December 2024</p>
+            <ul>
+                <li>Understand key ML algorithms like linear regression, decision trees, and neural networks for predictive modeling.</li>
+                <li>Learn techniques for cleaning, transforming, and selecting features to improve model performance.</li>
+                <li>Explore applications of AI in natural language processing, computer vision, and deep learning using frameworks like TensorFlow and PyTorch.</li>
+            </ul>
+            <button>Enroll Now</button>
+        </div>
+        </div>
+        <!-- Card 6 -->
+        <div class="course-card">
+        <img src="data science.png" alt="Course Image" class="course-image">
+        <div class="course-info">
+            <h3 class="course-title">Data science and Analytics</h3>
+            <p class="instructor">prof.Shubhankar Ray</p>
+            <div class="rating">4.7 ★ (836,836)</div>
+            <div class="price">
+                <span class="current-price">₹2,999</span>
+                <span class="original-price">₹3,499</span>
+            </div>
+        </div>
+        <div class="course-details">
+            <p><strong>Best Seller</strong> | Updated December 2024</p>
+            <ul>
+                <li>Learn how to clean, analyze, and visualize data using tools like Python (Pandas, Matplotlib) and Excel.</li>
+                <li>Understand statistical methods for data analysis, including hypothesis testing, probability distributions, and correlation.</li>
+                <li>Apply machine learning techniques such as regression, classification, and clustering to create predictive models from data.</li>
+            </ul>
+            <button>Enroll Now</button>
+        </div>
+        </div>
+    </section>
+   
+        <!-- End of Topics Container -->
+</section>
+        <!-- Footer Call-to-Action Section -->
+        <section class="cta">
+            <h2>Register for a free account</h2>
+            <button class="cta-btn" onclick="register()">Register</button>
+        </section>
+    </main>
+
+                <!-- Community Section -->
+    <section class="community-section">
+        
+        <!-- Text and Image Container -->
+        <div class="text-image-container">
+            <!-- Left Text Section -->
+            <div class="text-content">
+                <h1>Join a community, not just a classroom</h1>
+                <br>
+                <p>With EmptyMinds, you can expect the kinds of benefits that set you up for long-term professional and personal growth</p>
+                <ul>
+                    <li>Earn valuable credentials from top universities and companies.</li>
+                    <li>Access career support and planning resources.</li>
+                    <li>Learn from world-class university faculty and industry leaders.</li>
+                    <li>Upskill at your pace with flexible hybrid or 100% online options.</li>
+                    <li>Join a global network of professionals in your industry.</li>
+                </ul>
+            </div>
+            <!-- End of Left Text Section -->
+
+            <!-- Right Image Section -->
+            <div class="image-content">
+                <img src="img2.png" alt="Laptop showing EmptyMinds courses">
+            </div>
+            <!-- End of Right Image Section -->
+        </div>
+        <!-- End of Text and Image Container -->
+
+        <!-- Register Section -->
+        <div class="started-section">
+            <h2>Lets Join a New Enviroment</h2>
+            <p>Sign up now</p>
+            <button>Get started</button>
+        </div>
+        <!-- End of Register Section -->
+    </section>
+            <!-- Additional footer link sections if needed -->
+        </div>
+    </footer>
+    <section>
+        <h2 class="section-title"><span class="highlight">2000+</span> Companies have hired <span class="highlight">Our</span> learners</h2>
+
+
+
+
+  <!-- companies logos -->
+<div class="logo-grid">
+  
+    <div class="logo-item"><img src="gogole.jpg" alt="Google"></div>
+    <div class="logo-item"><img src="amazon logo.jpg" alt="Amazon"></div>
+    <div class="logo-item"><img src="nvidia logo.png" alt="NVIDIA"></div>
+    <div class="logo-item"><img src="accenture logo.png" alt="Accenture"></div>
+    <div class="logo-item"><img src="Deloitte-Logo.png" alt="Deloitte"></div>
+    <div class="logo-item"><img src="Bank-of-America-Logo.png" alt="bank of america"></div>
+    <div class="logo-item"><img src="Bosch-Logo.png" alt="Bosch"></div>
+    <div class="logo-item"><img src="jio logo.png" alt="jio"></div>
+    <div class="logo-item"><img src="tcs log.png" alt="tcs"></div>
+    <div class="logo-item"><img src="Tech_Mahindra-Logo.png" alt="tech mahindra"></div>
+    <div class="logo-item"><img src="goldman-sachs.png" alt="goldman sachs"></div>
+    <div class="logo-item"><img src="Oracle-Logo.png" alt="oracle"></div>
+    <div class="logo-item"><img src="Samsung-logo.png" alt="samsung"></div>
+    <div class="logo-item"><img src="Infosys_logo.svg.png" alt="infosys"></div>
+    <div class="logo-item"><img src="hcl logo.png" alt="Hcl"></div>
+    <div class="logo-item"><img src="Tata-Motors.jpg" alt="tata"></div>
+    <div class="logo-item"><img src="apolo hospitals.jpg" alt="Apollo hospitals"></div>
+    <div class="logo-item"><img src="wipro logo.webp" alt="wipro"></div>
+    <div class="logo-item"><img src="mediatak logo.png" alt="mediatak"></div>
+    <div class="logo-item"><img src="snapdragon.jpg" alt="snapdragon"></div>
+    <div class="logo-item"><img src="delhivery-logo.png" alt="Delhivery"></div>
+    <div class="logo-item"><img src="Flipkart-Logo.png" alt="Flipkart"></div>
+    <div class="logo-item"><img src="netflix logo.png" alt="Netflix"></div>
+    <div class="logo-item"><img src="ZS_logo.png" alt="Zs"></div>
+    <div class="logo-item"><img src="siply logo.png" alt="siply"></div>
+    <div class="logo-item"><img src="gep logo.jpeg" alt="Gep"></div>
+    <div class="logo-item"><img src="optum-logo.png" alt="optum"></div>
+    <div class="logo-item"><img src="OnePlus-Logo.png" alt="oneplus"></div>
+    <div class="logo-item"><img src="HP logo.svg" alt="hp"></div>
+    <div class="logo-item"><img src="Zomato-Logo.png" alt="zomato"></div>
+    <div class="logo-item"><img src="boat logo.png" alt="boat"></div>
+    <div class="logo-item"><img src="bharatpe logo.png" alt="bharat pay"></div>
+</div>
+
+    </section>
+
+
+
+
+    <!-- Awards Section -->
+  <div class="header-section">
+    <h1>National Level Recognition for Our Students</h1>
+    <div class="logo-container">
+      <img src="logo mty minds.png" alt="Emptymind Logo">
+      <img src="nsdc img.png" alt="NSDC Logo">
+      <img src="skill india logo.png" alt="Skill India Logo">
+      <img src="govt of india logo.svg" alt="Government Logo">
+    </div>
+  </div>
+
+
+
+  <!-- Recognition Section -->
+  <div class="recognition-section">
+    <div class="image-wrapper">
+      <!-- Placeholder for image 1 -->
+      <div class="image-box">
+        <img src="prize img 1.png" alt="Award Image 1">
+      </div>
+      <!-- Placeholder for image 2 -->
+      <div class="image-box">
+        <img src="prize img 2.png" alt="Award Image 2">
+      </div>
+    </div>
+  </div>
+
+  <!-- Event Information Section -->
+  <div class="event-info">
+    <p>Presented at</p>
+    <h2>Victor Menezes Convention Centre, IIT Bombay</h2>
+    <button class="event-button">Skill Convocation Ceremony</button>
+    <p>#SkillKoSamman</p>
+  </div>
+
+
+<!-- Footer Section -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-logo">
+            <h2>MTY MINDS<sup>TM</sup></h2>
+        </div>
+
+        <div class="footer-section reach-us">
+            <h3>Reach Us</h3>
+            <p><i class="fab fa-whatsapp"></i> +91 8926321189 (WhatsApp only)</p>
+            <p><i class="fas fa-envelope"></i> support@Mtyminds.edu</p>
+        </div>
+
+        <div class="footer-section quick-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Intensive</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">Academy</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Hire with us</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">4.0 Champions</a></li>
+                <li><a href="#">Mty minds'23 Review</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section payment-methods">
+            <h3>Payment Methods</h3>
+            <div class="payment-icons">
+                <img src="visa logo.jpg" alt="Visa">
+                <img src="razorpay-icon.webp" alt="Razorpay">
+                <img src="master logo.webp" alt="Mastercard">
+                <img src="upii logo.jpg" alt="UPI">
+                <img src="rupay logo.png" alt="RuPay">
+            </div>
+        </div>
+
+        <div class="footer-section address">
+            <p><i class="fas fa-map-marker-alt"></i> Mtyminds, Level-6,Occac Tower, Doorshan colony, Gajapati Nagar, Bhubaneswar,Odisha 751013</p>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Grievance Redressal</a></li>
+            <li><a href="#">Corporate Information</a></li>
+            <li><a href="#">Vision and Values</a></li>
+        </ul>
+    </div>
+
+    <div class="social-icons">
+        <a href=""><i class="fab fa-facebook"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+        <a href=""><i class="fab fa-linkedin"></i></a>
+        <a href=""><i class="fab fa-youtube"></i></a>
+    </div>
+</footer>
+
+    <!-- JavaScript File -->
+    <script src="scripts.js"></script>
+   
+</body>
+</html>
